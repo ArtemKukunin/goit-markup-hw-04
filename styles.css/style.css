@@ -37,6 +37,7 @@ flex-basis: calc(100%-var(--indent)
 --dark-bg-cl-tems:#F5F4FA;
 --dark-bg-cl-footer:#2F303A;
 --accent-bg-cl:#2196F3;
+--features-bg-cl:#F5F5F5;
 /* others */
 --indent: 30px;
 --items: 3; 
@@ -207,6 +208,8 @@ color: var(--main-txt-cl);
 color: var(--accent-bg-cl);
 caret-color: var(--accent-bg-cl);
 }
+
+/* Contacts  */
 .contacts-link,
 .contacts-item {
 color: var(--main-txt-cl);
@@ -220,6 +223,21 @@ letter-spacing: 0.02em;
 color: var(--main-txt-cl);
 
 }
+/* Contacts icon */
+.contacts-list{
+display:flex;  
+flex-wrap: wrap;
+gap: 10px;
+align-items: center;
+justify-content: center;
+}
+.contacts-icon:hover
+.contacts-icon:focus
+{
+    background-color: var(--accent-bg-cl);
+}
+
+
 .studio-current {
 color: var(--accent-bg-cl);
 }
@@ -329,7 +347,7 @@ color: var(--main-txt-cl-title);
     align-items: center;
     justify-content:start;
     margin: 0;
-    background-color: var(--dark-bg-cl-fet);
+    background-color: var(--features-bg-cl);
 }
 .list-features{
     display: flex;
@@ -345,11 +363,18 @@ color: var(--main-txt-cl-title);
 }
 .list-features-item{
     width: 270px;
+   
+}
+.features-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height:120px;
+    margin-bottom: 30px;
+    background-color: var(--dark-bg-cl-tems);
 }
 
-/* .section-title{
-    display: flex;  
-} */
 .list-occupation{
     justify-content: space-between;
     display: flex;
@@ -441,8 +466,63 @@ color: var(--main-txt-cl-title);
     background-color: var(--dark-bg-cl-tems);
     padding-top: 94px;
     }
+/* Social icons */
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0px;
+      
+    }
+      
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+   
+    color: #303030;
+    background-color: #ffffff;
+    border-radius: 50%;
+    }
+      
+.socials-link:hover,
+.socials-link:focus {
+    color:var(--accent-bg-cl);
+    }
+      
+.socials-icon {
+    fill: currentColor;
+    }
+/* Client */
+.client{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 372px;
+    margin: 0 auto;
+    background-color: var(--features-bg-cl);
+  
+    
 
 
+}
+.client-item{
+    width: 170px;
+    height: 92px;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+.client-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
     /* footer */
  .footer-item{
