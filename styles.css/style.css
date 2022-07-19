@@ -272,6 +272,13 @@ color: var(--accent-bg-cl);
     margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-image: url("../images/hero.jpg");
+    /* background-image:linear-gradient(to right,
+    rgba(47,48,58,0.4),
+    rgba(47,48,58,0.4),
+     url("../images/hero.jpg")); */
+     background-position: center;
 
     background-color: var(--dark-bg-cl-hero);
     font-weight: 900;
@@ -283,7 +290,17 @@ color: var(--accent-bg-cl);
     color: var(--main-txt);
 
 }
-
+.hero-img{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    /* ; */
+    background: rgba(47, 48, 58, 0.4);
+    /* max-width: 1600px;
+    max-height: 600px; */
+}
 .title-hero{
     
     width: 696px;
@@ -529,11 +546,7 @@ color: var(--main-txt-cl-title);
     margin: 0 auto;
    
 }
-.client-item{
-    /* width: 170px;
-    height: 92px; */
-   
-}
+
 .client-link{
     display: flex;
     align-items: center;
@@ -792,12 +805,13 @@ color: var(--main-txt-cl-title);
         display: flex;
         gap:30px;
         flex-wrap: wrap;
-        /* align-items:center; */
-       margin: 0 auto;
+      
+        margin: 0 auto;
         padding-left: 0;
         padding-bottom: 0px;
-    
+       
     }
+    
     .list-portfolio:nth-child(4n + 1)
     {
         padding-bottom: 30px;
@@ -812,9 +826,13 @@ color: var(--main-txt-cl-title);
         padding-bottom: 0px;
       
     }
-    .portfolio-cards{
-        /* margin-right: 0px; */
+    .card-portfolio :hover,
+    .card-portfolio :focus
+    {
+        background-color: var(--accent-bg-cl);
+    }
+    .portfolio-box{
+
         background-color: var(--main-txt);
-        /* flex-wrap: wrap;
-         */
+       
     }
