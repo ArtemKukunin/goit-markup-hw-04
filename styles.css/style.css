@@ -514,7 +514,7 @@ color: var(--main-txt-cl-title);
     fill: currentColor;
     }
 /* Client */
-.client{
+/* .client{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -522,10 +522,7 @@ color: var(--main-txt-cl-title);
    
     margin: 0 auto;
    
-    
-
-
-}
+} */
 .client-item{
     width: 170px;
     height: 92px;
@@ -542,8 +539,12 @@ color: var(--main-txt-cl-title);
 }
 /* Client */
 .client-list{
-    /* background-color: #2196F3;
-    color: #212121; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0 auto; 
 }
 
     /* footer */
