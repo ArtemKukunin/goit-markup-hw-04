@@ -292,7 +292,7 @@ color: var(--accent-bg-cl);
 }
 
 .button-hero{
-    /* font-weight: 700; */
+    font-weight: 700; 
     font-size: 16px;
     line-height: 1.88;
     display:inline-block;
@@ -344,19 +344,20 @@ color: var(--main-txt-cl-title);
     /* align-content: flex-start; */
     
     justify-content:space-between;
-    height: 800px;
+  
     align-items: center;
     justify-content:start;
     margin: 0;
-    background-color: var(--features-bg-cl);
+    padding-top: 94px;
+    padding-right: 0px;
+    padding-bottom: 94px;
+    padding-left: 0px;
+ 
 }
 .list-features{
     display: flex;
     gap: 30px;
-    padding-top: 94px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    
  
     margin: 0;
     margin-top: 0;
@@ -389,7 +390,26 @@ color: var(--main-txt-cl-title);
    padding-top: 50px;
    padding-bottom: 94px;
 } 
+/* Works */
 
+.works{
+   
+
+    justify-content:start;
+    align-items:center;
+   
+
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 94px;
+    padding-left: 0px;
+}
+
+.title-works{
+
+    padding: 0;
+}
 /* team */
 .section-team{
     /* display: flex; */
@@ -503,10 +523,9 @@ color: var(--main-txt-cl-title);
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 372px;
+   
     margin: 0 auto;
-    background-color: var(--features-bg-cl);
-  
+   
     
 
 
@@ -612,173 +631,173 @@ color: var(--main-txt-cl-title);
 
  /* portfolio css */
  .header-portfolio{
-background-color: var(--dark-bg-cl-fet);
-}
-
-
-
-/* проблеми- потрібно поправити */
-.button-item{
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    flex-wrap: wrap;
-    gap: 50px; 
-
-}
-.button{
-    font-style: normal;     
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em; 
+    background-color: var(--dark-bg-cl-fet);
+    }
+    
+    
+    
+    
+    .button-item{
+       
+        flex-wrap: wrap;
+       
+    
+    }
+    .button{
+        padding:6px 22px;
+        font-style: normal;     
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em; 
+    
+        color: var(--main-txt-cl-title);
+        background-color:var(--dark-bg-cl-tems);
+    }
+    
+    .button:hover,
+    .button:focus,
+    .button:active{
+    
+        
+        font-style: normal;     
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em; 
+        color: var(--main-txt);
+        background-color: var(--accent-bg-cl);
+    
+    
+    }
+    
+        
+    .button-link{
+       
     color: var(--main-txt-cl-title);
-    background-color:var(--dark-bg-cl-tems);
-}
-
-.button:hover,
-.button:focus,
-.button:active{
-
-    
-    font-style: normal;     
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em; 
-    color: var(--main-txt);
-    background-color: var(--accent-bg-cl);
-
-
-}
-
-    
-.button-link{
-   
-color: var(--main-txt-cl-title);
-text-decoration: none;
-
-
-}
-.contacts-footer {
-    display: flex;
-    margin-top: 9px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-
-}
-.current-link{
-    color: var(--accent-bg-cl);
-}
-
-..section-title-portfolio{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    margin: 0;
-
-    color: var(--main-txt-cl-title);
-}
-.text-portfolio {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height:1.9;
-    margin: 0;
-    letter-spacing: 0.03em;
-
-    color: var(--main-txt-cl);
-}
-.list-button
-{
-    display: inline-flex;
-   
-    gap:8px;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items:center;
-    margin-top: 0;
-    margin-bottom: 50px;
-    padding:6px 22px;
-   
+    text-decoration: none;
     
     
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    color: var(--main-txt);
-
-
-}
-.section-navigation{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 94px 0px;
+    }
+    .contacts-footer {
+        display: flex;
+        margin-top: 9px;
     
-    background-color: var(--main-txt)
-}
-.portfolio-info{
-    padding-top: 20px;
-    padding-right: 24px;
-    padding-bottom: 4px;
-    padding-left: 24px;
-    margin: 0;
-
-   border-right:1px solid #EEEEEE;
-   border-bottom:1px solid #EEEEEE;
-   border-left:1px solid #EEEEEE;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
     
-
-}
-.portfolio-nav {
-    display: flex;
-    gap:30px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: auto; 
-    margin-left: auto;
-    padding-left: 0;
-}
-.list-portfolio {
-    display: flex;
-    gap:30px;
-    flex-wrap: wrap;
-    /* align-items:center; */
-   margin: 0 auto;
-    padding-left: 0;
-    padding-bottom: 0px;
-
-}
-.list-portfolio:nth-child(4n + 1)
-{
-    padding-bottom: 30px;
-} 
-.list-portfolio:last-child{
-    padding-bottom: 0px;
-}
-.card-portfolio{
-    display: inline-block;   
-    margin: 0;
-    background: #FFFFFF;
-    padding-bottom: 0px;
-  
-}
-.portfolio-cards{
-    /* margin-right: 0px; */
-    background-color: var(--main-txt);
-    /* flex-wrap: wrap;
-     */
-}
+    }
+    .current-link{
+        color: var(--accent-bg-cl);
+    }
+    
+    .section-title-portfolio{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        margin-top: 0px;
+        margin-bottom: 4px;
+    
+        color: var(--main-txt-cl-title);
+    }
+    .text-portfolio {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:1.9;
+        margin: 0;
+        letter-spacing: 0.03em;
+    
+        color: var(--main-txt-cl);
+    }
+    .list-button
+    {
+        display:flex;
+        gap:8px;
+       
+        justify-content: center;
+        align-items:center;
+        margin-top: 0;
+        margin-bottom: 50px;
+        padding: 0px;
+        
+       
+        
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        color: var(--main-txt);
+    
+    
+    }
+    .section-navigation{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 94px 0px;
+        
+        background-color: var(--main-txt)
+    }
+    .portfolio-info{
+        padding-top: 20px;
+        padding-right: 24px;
+        padding-bottom: 20px;
+        padding-left: 24px;
+        margin: 0;
+    
+       border-right:1px solid #EEEEEE;
+       border-bottom:1px solid #EEEEEE;
+       border-left:1px solid #EEEEEE;
+        
+    
+    }
+    .portfolio-nav {
+        display: flex;
+        gap:30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: auto; 
+        margin-left: auto;
+        padding-left: 0;
+    }
+    .list-portfolio {
+        display: flex;
+        gap:30px;
+        flex-wrap: wrap;
+        /* align-items:center; */
+       margin: 0 auto;
+        padding-left: 0;
+        padding-bottom: 0px;
+    
+    }
+    .list-portfolio:nth-child(4n + 1)
+    {
+        padding-bottom: 30px;
+    } 
+    .list-portfolio:last-child{
+        padding-bottom: 0px;
+    }
+    .card-portfolio{
+        display: inline-block;   
+        margin: 0;
+        background: #FFFFFF;
+        padding-bottom: 0px;
+      
+    }
+    .portfolio-cards{
+        /* margin-right: 0px; */
+        background-color: var(--main-txt);
+        /* flex-wrap: wrap;
+         */
+    }
