@@ -566,7 +566,7 @@ color: var(--main-txt-cl-title);
 }
 .client-link:hover,
 .client-link:focus {
-color:var(--accent-bg-cl);
+    border: 1px solid var(--accent-bg-cl);
 }
 .client-icon:hover,
 .client-icon:focus{
