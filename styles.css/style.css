@@ -116,8 +116,14 @@ border-bottom: 1px solid #ECECEC;
    
 }
 .link-item {
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .logo{
@@ -244,7 +250,9 @@ fill: currentColor;
 
 } 
 
-
+.portfolio-item{
+flex-basis: calc((100% - 60px) / 3);
+}
 .studio-current {
 color: var(--accent-bg-cl);
 }
@@ -259,7 +267,12 @@ color: var(--accent-bg-cl);
 .contacts-list {
     padding-left: 0;
 }
-
+.box-contacts-icon{
+    display:flex;  
+    gap:10px;
+    align-items: center;
+    justify-content:center;  
+}
 
 /* hero */
 .hero{
@@ -463,13 +476,13 @@ color: var(--main-txt-cl-title);
 
 .team-item{
     margin:0;
+    flex-basis: calc((100% - 90px) / 4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    /* flex-basis: calc((100% - 30px * 4) / 5); */
-    /* display: flex; */
+  
     flex-wrap: wrap;
     gap: 30px;
-  /* gap: var(--indent); */
+
 }
 .card-team{
     padding-top: 30px;
@@ -548,29 +561,28 @@ color: var(--main-txt-cl-title);
     justify-content: center;
    
     padding-bottom: 94px;
-   
     margin: 0 auto;
    
 }
-
+.client-item:hover,
+.client-item:focus {
+color:var(--accent-bg-cl);
+}
 .client-link{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 170px;
-height: 92px;
-border: 1px solid var(--icons-cl);
-color:var(var(--icons-cl));
-border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icons-cl);
+    color:currentColor;
+    border-radius: 4px;
   
 }
 .client-icon{
 fill:var(--icons-cl); 
 }
-.client-icon:hover,
-.client-icon:focus{
-fill: var(--accent-bg-cl);
-}
+
 .title-client{
     margin-bottom: 50px;
 }
@@ -582,6 +594,7 @@ fill: var(--accent-bg-cl);
     margin: 0 auto;
     padding: 0px;
 }
+
 .client-item:not(:nth-child(6n)){
     margin-right: 30px;
 }
