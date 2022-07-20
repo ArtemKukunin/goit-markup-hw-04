@@ -564,9 +564,13 @@ color: var(--main-txt-cl-title);
     margin: 0 auto;
    
 }
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-link:focus {
 color:var(--accent-bg-cl);
+}
+.client-icon:hover,
+.client-icon:focus{
+    fill:var(--accent-bg-cl);
 }
 .client-link{
     display: flex;
