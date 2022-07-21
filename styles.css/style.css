@@ -867,8 +867,8 @@ fill:var(--icons-cl);
     padding-bottom: 0px;
       
     }
-.portfolio-item :hover,
-.portfolio-item :focus
+.card-portfolio:hover,
+.card-portfolio:focus
     {
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
