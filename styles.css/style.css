@@ -116,8 +116,10 @@ border-bottom: 1px solid #ECECEC;
    
 }
 .link-item {
-    display: flex;
+    display:flex;
+    flex-direction:row-reverse;
     align-items: center;
+    gap:10px;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -266,12 +268,6 @@ color: var(--accent-bg-cl);
 }
 .contacts-list {
     padding-left: 0;
-}
-.box-contacts-icon{
-    display:flex;  
-    gap:10px;
-    align-items: center;
-    justify-content:center;  
 }
 
 /* hero */
