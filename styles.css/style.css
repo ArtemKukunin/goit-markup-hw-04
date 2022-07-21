@@ -568,13 +568,8 @@ color: var(--main-txt-cl-title);
   
     color:var(--accent-bg-cl);
   
-  
 }
-/* .client-icon:hover,
-.client-icon:focus{
-    
-    fill:var(--accent-bg-cl);
-} */
+
 .client-link{
     display: flex;
     justify-content: center;
@@ -608,9 +603,7 @@ fill:currentColor;
 .client-item:not(:nth-child(6n)){
     margin-right: 30px;
 }
-/* .client-item{
 
-} */
     /* footer */
 
 .footer{
